@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basket Mania</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.css.map">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swiper-bundle.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-items">
+        <div class="logo">
+          <a href="">
+            <img src="img/logo.png" alt="Logo">
+          </a>
+        </div>
+        <form class="form">
+          <input type="search" class="header-items__search input" placeholder="Название товара">
+          <button type="submit" class="header-items__button" aria-label="search button"></button>
+        </form>
+        <div class="navbar">
+          <a href="" class="navbar__item">
+            <div class="navbar__img">
+              <img src="img/navbar/place.png" alt="place img" class="navbar__img">
+            </div>
+            <div class="navbar__text">Наша сеть</div>
+          </a>
+          <a href="" class="navbar__item">
+            <div class="navbar__img">
+              <img src="img/navbar/comparison.png" alt="place img" class="navbar__img">
+            </div>
+            <div class="navbar__text">Сравнение</div>
+          </a>
+          <a href="" class="navbar__item">
+            <div class="navbar__img">
+              <img src="img/navbar/heart.png" alt="place img" class="navbar__img">
+            </div>
+            <div class="navbar__text">Желаемое</div>
+          </a>
+          <a href="" class="navbar__item">
+            <div class="navbar__img">
+              <img src="img/navbar/shopping-cart.png" alt="place img" class="navbar__img">
+            </div>
+            <div class="navbar__text">Корзина</div>
+          </a>
+          <a href="" class="navbar__item">
+            <div class="navbar__img">
+              <img src="img/navbar/user.png" alt="place img" class="navbar__img">
+            </div>
+            <div class="navbar__text">Профиль</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="catigories">
+    <div class="container container_catigories">
+      <div class="catigories__body">
+        <div class="catigories__item catigories__item--underline">
+          <a class="catigories__link" href="#">
+            <div class="link__text">Мячи</div>
+          </a>
+        </div>
+        <div class="catigories__item catigories__item--underline">
+          <a class="catigories__link" href="#">
+            <div class="link__text">Обувь</div>
+          </a>
+        </div>
+        <div class="catigories__item catigories__item--underline">
+          <a class="catigories__link" href="#">
+            <div class="link__text">Защитная одежда</div>
+          </a>
+        </div>
+        <div class="catigories__item catigories__item--underline">
+          <a class="catigories__link" href="#">
+            <div class="link__text">Одежда</div>
+          </a>
+        </div>
+        <div class="catigories__item catigories__item--underline">
+          <a class="catigories__link" href="#">
+            <div class="link__text">Головные уборы</div>
+          </a>
+        </div>
+        <div class="catigories__item catigories__item--underline">
+          <a class="catigories__link" href="#">
+            <div class="link__text">Другое</div>
+          </a>
+        </div>
+        <div class="catigories__item catigories__item--underline">
+          <a class="catigories__link" href="#">
+            <div class="link__text">Бренды</div>
+          </a>
+        </div>
+        <div class="catigories__item catigories__item--underline">
+          <a class="catigories__link" href="#">
+            <div class="link__text">Горячие предложения</div>
+          </a>
+        </div>
+        <div class="catigories__item catigories__item--underline">
+          <a class="catigories__link" href="#">
+            <div class="link__text">Скидки</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+        <button type="carousel_button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0"  class="active "aria-current="true" aria-label="Slide 1">
+        </button>
+        <button type="carousel_button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="carousel_button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="carousel_button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="carousel_button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="carousel_button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner container">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="#" width="2000px" height="580px" class="d-block" alt="...">
+            <div class="carousel-item__inner">
+              <div class="carousel-item__inf">
+                <h1 class="carousel-item__title">
+                  При покупке мяча<br>
+                  <span>Wilson Basketball Evo Nxt</span>
+                  Майка и кепка в подарок!
+                </h1>
+                <div class="carousel-item__subtitle">
+                  Поспеши забрать подарки. До конца акции осталось пару дней!
+                </div>
+                <button class="button carousel-item__button">Получить подарок</button>
+              </div>
+              <div class="carousel-item__img">
+                <img src="Img/carousel/carousel-img1.png" alt="Offer img">
+              </div>
+            </div>
+            <!-- /carousel-item__inner -->
+          </div>
+          <!-- /carousel-item -->
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/carousel/carousel-bg.png" width="1880px" height="580px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/carousel/carousel-bg.png" width="1880px" height="580px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/carousel/carousel-bg.png" width="1880px" height="580px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/carousel/carousel-bg.png" width="1880px" height="580px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/carousel-bg.png" width="2000px" height="580px" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="cart-carousel">
+    <div class="container">
+      <h2 class="cart-title">Новые поступления</h2>
+      <div class="cart-carousel__items">
+        <div class="swiper-buttons">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+          <!-- Slider main container -->
+          <div class="swiper"> 
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <a href="#" class="slider__item">
+                  <div class="slider__item-top">
+                    <div class="top-ing">
+                      <img src="img/carousel-slider/new-img.png" alt="">
+                    </div>
+                    <div class="heart">
+                      <img src="img/carousel-slider/heart.png" alt="">
+                    </div>
+                  </div>
+                  <div class="slider-items__img">
+                    <img src="img/carousel-slider/cart-item-img.png" alt="">
+                  </div>
+                  <div class="slider-items__title">
+                    Nike NBA LA Clippers Kawhi Leonard
+                  </div>
+                  <div class="slider-items__price">
+                    450 грн
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="slider__item">
+                  <div class="slider__item-top">
+                    <div class="top-ing">
+                      <img src="img/carousel-slider/new-img.png" alt="">
+                    </div>
+                    <div class="heart">
+                      <img src="img/carousel-slider/heart.png" alt="">
+                    </div>
+                  </div>
+                  <div class="slider-items__img">
+                    <img src="img/carousel-slider/cart-item-img.png" alt="">
+                  </div>
+                  <div class="slider-items__title">
+                    Nike NBA LA Clippers Kawhi Leonard
+                  </div>
+                  <div class="slider-items__price">
+                    450 грн
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="slider__item">
+                  <div class="slider__item-top">
+                    <div class="top-ing">
+                      <img src="img/carousel-slider/new-img.png" alt="">
+                    </div>
+                    <div class="heart">
+                      <img src="img/carousel-slider/heart.png" alt="">
+                    </div>
+                  </div>
+                  <div class="slider-items__img">
+                    <img src="img/carousel-slider/cart-item-img.png" alt="">
+                  </div>
+                  <div class="slider-items__title">
+                    Nike NBA LA Clippers Kawhi Leonard
+                  </div>
+                  <div class="slider-items__price">
+                    450 грн
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="slider__item">
+                  <div class="slider__item-top">
+                    <div class="top-ing">
+                      <img src="img/carousel-slider/new-img.png" alt="">
+                    </div>
+                    <div class="heart">
+                      <img src="img/carousel-slider/heart.png" alt="">
+                    </div>
+                  </div>
+                  <div class="slider-items__img">
+                    <img src="img/carousel-slider/cart-item-img.png" alt="">
+                  </div>
+                  <div class="slider-items__title">
+                    Nike NBA LA Clippers Kawhi Leonard
+                  </div>
+                  <div class="slider-items__price">
+                    450 грн
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="slider__item">
+                  <div class="slider__item-top">
+                    <div class="top-ing">
+                      <img src="img/carousel-slider/new-img.png" alt="">
+                    </div>
+                    <div class="heart">
+                      <img src="img/carousel-slider/heart.png" alt="">
+                    </div>
+                  </div>
+                  <div class="slider-items__img">
+                    <img src="img/carousel-slider/cart-item-img.png" alt="">
+                  </div>
+                  <div class="slider-items__title">
+                    Nike NBA LA Clippers Kawhi Leonard
+                  </div>
+                  <div class="slider-items__price">
+                    450 грн
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/scrollbar.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
